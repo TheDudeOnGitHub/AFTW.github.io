@@ -1,6 +1,6 @@
 const contentContainer = document.getElementById('content-container');
 
-fetch('https://aicg-moxxie-proxy.hf.space/')
+fetch('https://moxxie-knolastname-deployment-test.hf.space/')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
